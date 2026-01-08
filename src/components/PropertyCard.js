@@ -23,7 +23,7 @@ const PropertyCard = ({ property }) => {
         {/* Price */}
         <div className="mb-4">
           <span className="text-2xl font-light text-primary">
-            ${property.price.toLocaleString()}
+            ₦{property.price.toLocaleString()}
             {property.type === 'rent' && <span className="text-sm text-muted">/month</span>}
           </span>
         </div>
